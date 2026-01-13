@@ -1,0 +1,3 @@
+git init: dùng để khởi tạo 3 vùng Working Directory ; Staging Area ; Repository
+git add <file_name: dùng để đưa cái file vào vùng xác thực
+git commit -m "message": dùng để hoàn thiện phiên bản chính xác của các file 
