@@ -4,9 +4,10 @@ Git && Javascript Basic
 - Là dạng distributed của Version Control System
 - Được sử dụng phổ biến và rộng rãi hiện nay
     1.1 So sánh Git và Github
+
     | Git | Github | 
     -------|-------|-------|
-    | là 1 phần mềm | là 1 dich vu web | 
+    | là 1 phần mềm | là 1 dich vụ web | 
     | là công cụ quản lý các phiên bản và đưa vào Git repository | là nơi upload git repository lên| 
 
     1.2 Git - three states

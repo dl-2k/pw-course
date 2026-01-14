@@ -1,17 +1,36 @@
 a. Tạo 3 file: file1, file2, file3 
-Đáp án: Chưa nằm ở vùng nào hết vì chưa khỏi tạo git init
+Đáp án: do chưa khởi tạo lệnh git init nên 3 file vẫn ở local
+Working Directory: trống
+Staging Area: trống
+Repository: trống
+
 
 b. Chạy lệnh: git init
 Đáp án: Khởi tạo 3 vùng Working Directory ; Staging Area ; Reposity 
+Working Directory: tồn tại file1 ; file2; file3
+Staging Area: trống 
+Repository: trống
 
 c. Chạy lệnh: git commit -m"init project"
 Đáp án: không có gì để commit lên vì chưa chạy git add
+Working Directory: tồn tại file1 ; file2; file3
+Staging Area: trống 
+Repository: trống
 
 d. Chạy lệnh: git add file1
 Đáp án: đẩy file1 từ Vùng Working Directory lên Vùng Staging Area
+Working Directory: tồn tại  file2; file3
+Staging Area: tồn tại file1
+Repository: trống
 
 e: Chạy lệnh: git commit -m"add file1"
 Đáp án: đẩy file1 lên từ Vùng Staging Area lên Repository
+Working Directory: tồn tại  file2; file3
+Staging Area: trống 
+Repository: tồn tại file1
 
-f: Chạy lệnh gi commit -m"add file"
-Đáp án: đẩy file từ Vùng Working Directory lên Vùng Staging Area
+f: Chạy lệnh git commit -m"add file"
+Đáp án: không có gì vì chưa tồn tại file trong local và 3 vùng
+Working Directory: tồn tại  file2; file3
+Staging Area: trống 
+Repository: tồn tại file1
