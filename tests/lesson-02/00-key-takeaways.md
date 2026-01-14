@@ -74,4 +74,4 @@
   - `switch case`
 
 - Vòng lặp:
-  - `for`
+  - `for (i)`
