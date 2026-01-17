@@ -1,0 +1,37 @@
+a. Chạy lệnh: git init
+Đáp án: Khởi tạo 3 vùng Working Directory ; Staging Area ; Reposity 
+Working Directory: trống
+Staging Area: trống 
+Repository: trống
+
+b. Tạo file file1.txt, file.txt, oops/file3.txt
+Đáp án: cả 3 file1 ; file2 ; file3 được đưa vào vùng Working Directory
+Working Directory: file1,file2,file3
+Staging Area: trống 
+Repository: trống
+
+c. Thêm file .gitignore, thêm vào 2 dòng:
+i. file1.txt
+Đáp án: file1 sẽ trở về vùng local
+Working Directory: file2,file3
+Staging Area: trống 
+Repository: trống
+
+ii. oops/
+Đáp án: cả folder oops kèm file3.txt ở trỏng trở về vùng local
+Working Directory: file3
+Staging Area: trống 
+Repository: trống
+
+
+d. Chạy lệnh: git add.
+Đáp án: đưa file3 từ Working Directory qua Vùng Staging Area
+Working Directory: trống
+Staging Area: file3
+Repository: trống
+
+e. Chạy lệnh: git commit -m"init project"
+Đáp án: đưa file3 từ Vùng Staging Area qua vùng Repository
+Working Directory: trống
+Staging Area: trống
+Repository: file3

@@ -1,0 +1,53 @@
+a. Tạo 3 file: file1, file2, file3
+Đáp án: do chưa khởi tạo lệnh git init nên 3 file vẫn ở local
+Working Directory: trống
+Staging Area: trống
+Repository: trống
+
+b. Chạy lệnh: git init
+Đáp án: Khởi tạo 3 vùng Working Directory ; Staging Area ; Reposity 
+Working Directory: tồn tại file1 ; file2; file3
+Staging Area: trống 
+Repository: trống
+
+c. Chạy lệnh git commit -m"init project"
+Đáp án: không có git để commit vì chưa khởi chạy lệnh git add 
+Working Directory: tồn tại file1 ; file2; file3
+Staging Area: trống 
+Repository: trống
+
+d. Chạy lệnh git add file1
+Đáp án: đưa file1 từ vùng Working Directory sang vùng Staging Area
+Working Directory: tồn tại file2; file3
+Staging Area: tồn tại file1
+Repository: trống
+
+e. Chạy lệnh: git commit -m"add file"
+Đáp án: đẩy file1 lên từ Vùng Staging Area lên Repository
+Working Directory: tồn tại  file2; file3
+Staging Area: trống 
+Repository: tồn tại file1
+
+f. Chạy lênh: git add .
+Đáp án: đẩy file2 ; file3 từ Vùng Working Directory lên Vùng Staging Area
+Working Directory: trống
+Staging Area: tồn tại file2; file3
+Repository: tồn tại file1
+
+g. Chạy lệnh: git restore --staged file2
+Đáp án: đưa file2 từ Vùng Staging Area trở về Working Directory
+Working Directory: file2
+Staging Area: file3
+Repository: file1
+
+h. Chạy lệnh: git commit -m"add all files"
+Đáp án: đưa file 3 từ Vùng Staging Area lên Vùng Repository
+Working Directory: file2
+Staging Area: trống
+Repository: tồn tại file1 ; file3
+
+i. Chạy lệnh git reset HEAD~1
+Đáp án: Reset commit 1 commit gần nhất là lệnh git commit -m"add all files
+Working Directory: file3 ; file2
+Staging Area: trống
+Repository: tồn tại file1
